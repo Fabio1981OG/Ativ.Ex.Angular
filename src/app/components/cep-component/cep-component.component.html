@@ -1,0 +1,15 @@
+<div class="container"> 
+    <label>
+        <p>Cep: {{ localidade?.cep }}</p>
+        <p>Logradouro: {{ localidade?.logradouro }}</p>
+        <p>Bairro: {{ localidade?.bairro }}</p>
+        <p>Localidade: {{ localidade?.localidade }}</p>
+        <p>Estado: {{ localidade?.uf }}</p>
+    </label>
+</div>
+<div>
+    <h2>Consulte:
+        <input placeholder="00000-000" #cep>
+        <button mat-stroked-button (click)="buscar(cep.value)"> BUSCAR </button>
+    </h2>
+</div>

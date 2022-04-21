@@ -1,0 +1,35 @@
+h2{
+    display: block;   
+    justify-content: center;   
+    
+}
+div{ 
+    justify-content: center;
+    font-size: 17px;
+    height: 260px;
+    width: 464px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0rem 2.5rem;
+    width: 9rem;
+    border-radius: 4px;
+    background: rgba(9,9,121,1);
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+input{
+    border: 1px solid;
+    width: 84px;
+    height: 21px;
+    font-size: 17px;
+    padding-left: 5px;
+    Color: rgba(9,9,121,1);
+}
